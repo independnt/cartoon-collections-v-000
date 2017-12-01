@@ -6,7 +6,7 @@ def summon_captain_planet(planateers)
   planateers.map {|person| "#{person.capitalize}!"}
 end
 
-def long_planeteer_calls(calls))
+def long_planeteer_calls(calls)
   calls.all? {|word| word.length > 4}
 end
 
